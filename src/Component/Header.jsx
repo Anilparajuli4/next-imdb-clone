@@ -9,7 +9,7 @@ function Header() {
     <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-6">
       <div className="flex">
         <MenuItem title="Home" address="/" Icon={AiFillHome} />
-        <MenuItem title="about" address="/about" Icon={BsInfoCircleFill} />
+        <MenuItem title="About" address="/about" Icon={BsInfoCircleFill} />
       </div>
       <div className="flex item-center space-x-5">
         <DarkModeSwitch />

@@ -3,6 +3,7 @@ import './globals.css'
 import Header from '@/Component/Header'
 import Providers from '@/Providers'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Providers>
           <Header />
+
           {children}
         </Providers>
       </body>
